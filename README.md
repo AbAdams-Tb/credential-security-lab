@@ -116,21 +116,6 @@ Run unit tests (with the server stopped or in another terminal):
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-## 6. Upload to GitHub
-
-Create an **empty** repository named `credential-security-lab` at https://github.com/new (do not initialize it with a README). Then in the project folder:
-
-```powershell
-git init
-git add .
-git status
-git commit -m "Add local credential security demonstration"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/credential-security-lab.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your actual GitHub username. Before pushing, verify `git status` does **not** show `.demo_session_key`, `.mfa_sarah_secret`, `mfa_qr.png`, or `.venv/`.
 
 ## Presentation walkthrough (3–5 minutes)
 
