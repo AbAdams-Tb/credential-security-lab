@@ -1,0 +1,5 @@
+alice@example.com:WrongPass123!
+bob@example.com:OldPassword99
+david@example.com:Qwerty7890
+omar@example.com:Hunter2025
+sarah@example.com:Summer2026!

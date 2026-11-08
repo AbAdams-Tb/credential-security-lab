@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.demo_*
+.mfa_*
+mfa_qr.png
+mfa_*_qr.png
+.pytest_cache/
+playwright-report/
+test-results/
